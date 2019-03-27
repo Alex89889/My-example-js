@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <!--Main Css Start-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css">
+
+</head>
+
+<!-- Header End -->
+<!-- Body Start -->
+
+<body>
+
+   <!--Head Section start-->
+    <header>
+        <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo-main.png" class="img-responsive" alt="">
+                    </a>
+                </div> 
+				<div class="login">
+                    <div >
+						<input type='button' value='sign in'>
+						<div>
+					        Hello, <span id="userName">guest<span>!
+						</div>
+						<a id="show"><p class="open">Открыть всплывающее окно</p></a>
+					</div>
+                </div>
+        </div>
+    </header>
+    <!--Head Section End-->
+  <div onclick="show('none')" id="wrap"></div>
+		<!-- Само окно-->
+		<div id="window">
+			<form>
+				<div id='hide'><img class="close"  src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png"></div>
+				<center>		
+					<table>
+						<tr>
+							<td>
+								Имя:
+							</td>
+							<td>
+						        <input type="text" name="name">
+					        </td>
+					    </tr>
+					    <tr>
+						    <td>
+							    E-mail:
+						    </td>
+							<td>
+								<input type="text" name="email">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<input type="button" id='authorisation'  value ='Отправить'/>
+							</td>
+						</tr>
+					</table>
+				</center>
+			</form>		
+		</div>
+  
+   
+    <!--contact slider Section End-->
+    <!--Footer Section Start-->
+    <div class="content" id="content">
+        <div class="container" id="container"> 
+			<!-- <p><img id="largeImg" src="img/product/img1-lg.jpg" alt="Large image"></p>
+				  <ul id="thumbs" >
+					<!-- При наведении на изображение показывается встроенная подсказка браузера (title) -->
+			<!--		<li>
+					<a  href="img/product/img2-lg.jpg"  title="Image 2"><img width="100" height="100" src="img/product/img2-lg.jpg"></a>
+					</li>
+					<li>
+					  <a href="img/product/img3-lg.jpg" title="Image 3"><img width="100" height="100" src="img/product/img3-lg.jpg"></a>
+					</li>
+					<li>
+					  <a href="img/product/img4-lg.jpg" title="Image 4"><img width="100" height="100" src="img/product/img4-lg.jpg"></a>
+					</li>
+					<li>
+					  <a href="img/product/img5-lg.jpg" title="Image 5"><img width="100" height="100" src="img/product/img5-lg.jpg"></a>
+					</li>
+					<li>
+					  <a href="img/product/img6-lg.jpg" title="Image 6"><img width="100" height="100" src="img/product/img3-lg.jpg"></a>
+					</li>
+				  </ul>               
+              
+            <!--Footer Categories Start-->
+            
+        </div>
+    </div>
+    <footer>
+        <div class="eco_copyight">powerd <a href="https://github.com/Alex89889" class="eco_color5">Alex89889</a> </div>
+    </footer>
+    <!--Footer Section End-->
+    <!--go to top-->
+	<script src="js/elementSlider.js"></script>
+   <script src="js/slider.js"></script>
+   <script src="js/popup.js"></script>
+   <script src="js/validator.js"></script>
+   <script src="js/authorisationForm.js"></script>
+</body>
+
+</html>
